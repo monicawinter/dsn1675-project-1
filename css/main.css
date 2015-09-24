@@ -22,7 +22,11 @@ html {
 }
 
 body {
-  margin-bottom: 7em;
+  margin: 0;
+}
+
+img {
+  width: 100%;
 }
 
 h1 {
@@ -34,4 +38,5 @@ h1 {
 
 p {
   color: white;
+  margin: 1em
 }
