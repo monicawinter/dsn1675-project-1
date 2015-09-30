@@ -56,10 +56,13 @@ img {
 
 h1 {
   float: left;
+  margin-left: 0.6em;
+  font-size: 2.75em;
 }
 
 p {
   clear: both;
+  margin: 2.5em;
 }
 
 }
@@ -74,18 +77,19 @@ p {
 
   img {
     position: relative;
-    margin-bottom: 2em;
   }
 
   h1 {
     position: absolute;
-    bottom: 5%;
+    bottom: 2%;
     margin-left: 0.75em;
     font-size: 3em;
+    padding: 0em;
   }
 
   p {
-    margin: 3em;
+    margin: 1em 3em 3em 3em;
+    font-size: 14px;
   }
 
 }
@@ -106,4 +110,29 @@ img {
   width: 75%;
 }
 
+h1 {
+  font-size: 4em;
+}
+
+}
+
+
+@media only screen and (min-width: 37em) {
+
+p {
+  float: left;
+  max-width: 340px;
+}
+
+}
+
+
+@media only screen and (min-width: 50em) {
+
+img {
+width: 100%;
+}
+
+h1 {
+bottom: 30%;
 }
