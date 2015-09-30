@@ -101,6 +101,10 @@ p {
     font-size: 3.25em;
   }
 
+  p {
+    max-width: 340px;
+  }
+
 }
 
 
@@ -117,22 +121,20 @@ h1 {
 }
 
 
-@media only screen and (min-width: 37em) {
-
-p {
-  float: left;
-  max-width: 340px;
-}
-
-}
-
-
-@media only screen and (min-width: 50em) {
-
-img {
-width: 100%;
-}
+@media only screen and (min-width: 45em) {
 
 h1 {
-bottom: 30%;
+bottom: 40%;
+}
+
+}
+
+
+@media only screen and (min-width: 57em) {
+
+h1 {
+  font-size: 4.75em;
+  bottom: 45%;
+}
+
 }
