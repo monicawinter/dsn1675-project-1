@@ -190,7 +190,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 56em) {
+@media only screen and (min-width: 51em) {
 
 h1 {
   font-size: 4.75em;
@@ -213,10 +213,18 @@ footer {
   bottom: -84%;
 }
 
+.email {
+  margin: 0em 1em 2em 8em;
+}
+
+.tumblr {
+  margin: 0em 2em 2em 1em;
+}
+
 }
 
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 60em) {
 
 header {
   height: 500px;
@@ -234,4 +242,23 @@ h1 {
   top: 173px;
   z-index: 100;
   font-size: 6em;
+  padding-left: 0.25em;
+}
+
+.p2 {
+  bottom: -76%;
+}
+
+footer {
+  position: relative;
+}
+
+.email {
+  margin: 0em 1em 2em 8em;
+  width: 5%;
+}
+
+.tumblr {
+  margin: 0em 2em 2em 1em;
+  width: 5%;
 }
