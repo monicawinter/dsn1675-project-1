@@ -70,40 +70,40 @@ p {
 
 @media only screen and (min-width: 25em) {
 
-  header {
-    position: relative;
-    overflow: hidden;
-  }
+header {
+  position: relative;
+  overflow: hidden;
+}
 
-  img {
-    position: relative;
-  }
+img {
+  position: relative;
+}
 
-  h1 {
-    position: absolute;
-    bottom: 2%;
-    margin-left: 0.75em;
-    font-size: 3em;
-    padding: 0em;
-  }
+h1 {
+  position: absolute;
+  bottom: 2%;
+  margin-left: 0.75em;
+  font-size: 3em;
+  padding: 0em;
+}
 
-  p {
-    margin: 1em 3em 3em 3em;
-    font-size: 14px;
-  }
+p {
+  margin: 1em 3em 3em 3em;
+  font-size: 14px;
+}
 
 }
 
 
 @media only screen and (min-width: 28em) {
 
-  h1 {
-    font-size: 3.25em;
-  }
+h1 {
+  font-size: 3.25em;
+}
 
-  p {
-    max-width: 340px;
-  }
+p {
+  max-width: 340px;
+}
 
 }
 
@@ -124,17 +124,62 @@ h1 {
 @media only screen and (min-width: 45em) {
 
 h1 {
-bottom: 40%;
+  bottom: 50%;
+}
+
+.p1 {
+  position:absolute;
+  float: left;
+  bottom: 2%;
+}
+
+.p2 {
+  position: absolute;
+  clear: left;
+  bottom: -45%;
 }
 
 }
 
 
-@media only screen and (min-width: 57em) {
+@media only screen and (min-width: 56em) {
 
 h1 {
   font-size: 4.75em;
   bottom: 45%;
 }
 
+p {
+  padding-left: 51px;
+}
+
+.p1 {
+  bottom: -20%;
+}
+
+.p2 {
+  bottom: -73%;
+}
+
+}
+
+
+@media only screen and (min-width: 64em) {
+
+header {
+  height: 500px;
+}
+
+img {
+  width: 69%;
+  position: fixed;
+  right: 0%;
+  z-index: -100;
+}
+
+h1 {
+  position: relative;
+  top: 173px;
+  z-index: 100;
+  font-size: 6em;
 }
