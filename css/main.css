@@ -266,6 +266,8 @@ footer {
   margin: 0em 1.5em 2em 0em;
 }
 
+}
+
 
 @media only screen and (min-width: 72em) {
 
@@ -288,6 +290,47 @@ h1 {
 
 footer {
   top: 655px;
+}
+
+}
+
+
+@media print {
+
+img {
+width: 78%;
+float: left;
+}
+
+h1 {
+  color: white;
+  float: left;
+  font-size: 4em;
+  margin: 1em;
+  position: fixed;
+  top: 350px;
+}
+
+.p1 {
+  float: left;
+  width: 50%;
+  margin: 1em;
+  position: fixed;
+  left: 6px;
+  bottom: 0px;
+}
+
+.p2 {
+  float: right;
+  width: 50%;
+  margin: 1em;
+  position: fixed;
+  left: 310px;
+  bottom: 20px;
+}
+
+footer {
+  display: none;
 }
 
 }
