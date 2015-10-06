@@ -251,14 +251,43 @@ h1 {
 
 footer {
   position: relative;
+  top: 753px;
 }
 
 .email {
-  margin: 0em 1em 2em 8em;
-  width: 5%;
+  width: 12%;
+  position: absolute;
+  margin: 0em 10em 2em 0em;
 }
 
 .tumblr {
-  margin: 0em 2em 2em 1em;
-  width: 5%;
+  width: 12%;
+  position: absolute;
+  margin: 0em 1.5em 2em 0em;
+}
+
+
+@media only screen and (min-width: 72em) {
+
+img {
+  width: 60%;
+}
+
+h1 {
+  font-size: 7em;
+  padding: 0em;
+}
+
+.p1 {
+  bottom: -8%;
+}
+
+.p2 {
+  bottom: -62%;
+}
+
+footer {
+  top: 655px;
+}
+
 }
